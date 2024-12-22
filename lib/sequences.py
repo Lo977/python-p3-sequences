@@ -5,3 +5,4 @@ def print_fibonacci(length):
     while len(fib_num)<length:
         fib_num.append(fib_num[-1]+fib_num[-2])
     print(fib_num[:length])
+print(print_fibonacci(9))
